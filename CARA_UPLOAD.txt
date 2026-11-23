@@ -1,0 +1,21 @@
+GOOGLE FLOAT — PAKET UPLOAD DATAR
+
+Semua file ZIP berada di satu tingkat (tanpa folder di dalam ZIP).
+PENTING: GitHub Actions tetap mewajibkan satu file workflow berada pada lokasi khusus.
+
+LANGKAH:
+1. Buat repository GitHub kosong bernama GOOGLE-FLOAT.
+2. Ekstrak ZIP ini di HP.
+3. Upload semua file yang terlihat ke root repository (jangan upload ZIP-nya).
+4. Di GitHub, pilih Add file > Create new file.
+5. Pada nama file, ketik persis: .github/workflows/build-apk.yml
+   GitHub akan membuat folder-foldernya otomatis.
+6. Buka file GITHUB_WORKFLOW.txt dari paket ini, salin seluruh isinya,
+   tempel ke file build-apk.yml yang baru dibuat, lalu Commit changes.
+7. Buka tab Actions dan jalankan workflow Build GOOGLE FLOAT APK.
+8. Setelah selesai, unduh artifact GOOGLE-FLOAT-debug-apk.
+
+File PREPARE_PROJECT.sh akan membuat kembali struktur folder Android secara otomatis
+saat GitHub Actions berjalan. Jangan menjalankannya melalui aplikasi file manager Android.
+
+Catatan: ZIP ini adalah paket source untuk build, bukan APK siap instal.

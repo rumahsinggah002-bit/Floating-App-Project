@@ -1,0 +1,1 @@
+document.getElementById('start').addEventListener('click',function(){if(window.Android&&Android.startFloating){Android.startFloating()}else{alert('Jalankan melalui aplikasi Android GOOGLE FLOAT.')}});
